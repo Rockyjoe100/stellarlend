@@ -98,6 +98,9 @@ pub mod vote_escrow;
 /// On-chain insurance fund with per-asset contribution split (issue #1520)
 pub mod insurance;
 
+/// Collateral factor hot-swap with a rollback window (issue #1530)
+pub mod collateral;
+
 /// Pending-liquidation Dutch auction with configurable decay (issue #1566)
 pub mod auction;
 /// Per-user max-borrow hard cap with KYC attestation gate (issue #1562)
