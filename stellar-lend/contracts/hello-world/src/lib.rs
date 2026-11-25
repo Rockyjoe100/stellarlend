@@ -95,6 +95,9 @@ pub mod bad_debt;
 /// Vote-escrow ledger with a time-decaying boost for governance tokens (issue #1532)
 pub mod vote_escrow;
 
+/// On-chain insurance fund with per-asset contribution split (issue #1520)
+pub mod insurance;
+
 /// Pending-liquidation Dutch auction with configurable decay (issue #1566)
 pub mod auction;
 /// Per-user max-borrow hard cap with KYC attestation gate (issue #1562)
